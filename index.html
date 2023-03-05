@@ -24,10 +24,7 @@
             Welcome to my super-minimalist website, which was made for an
             assignment in Web Programming course I took.
           </p>
-          <footer>
-            Photo by Howard Bouchevereau on
-            <a href="https://unsplash.com/">Unsplash</a>
-          </footer>
+          <footer id="footer"></footer>
         </div>
       </div>
       <div class="box">
@@ -42,5 +39,17 @@
         </div>
       </div>
     </div>
+    <script>
+      if (
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches
+      ) {
+        document.getElementById("footer").innerHTML =
+          'Photo by AltumCode on <a href="https://unsplash.com/">Unsplash</a>';
+      } else {
+        document.getElementById("footer").innerHTML =
+          'Photo by Howard Bouchevereau on <a href="https://unsplash.com/">Unsplash</a>';
+      }
+    </script>
   </body>
 </html>
