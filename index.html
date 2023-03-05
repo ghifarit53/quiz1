@@ -32,7 +32,13 @@
       </div>
       <div class="box">
         <div class="image-container">
-          <img src="assets/macbook.jpg" alt="cover image" />
+          <picture>
+            <source
+              srcset="assets/macbook-dark.jpg"
+              media="(prefers-color-scheme: dark)"
+            />
+            <img src="assets/macbook.jpg" alt="cover image" />
+          </picture>
         </div>
       </div>
     </div>

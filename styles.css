@@ -131,4 +131,8 @@ ul li a.current-page {
     text-decoration: none;
     color: #dadada;
   }
+
+  .box .article footer {
+    color: #747474;
+  }
 }
