@@ -5,7 +5,7 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   background-color: #f1f1f1;
   color: #292929;
   overflow: hidden;
@@ -20,7 +20,7 @@ nav {
   text-align: center;
   background: rgba(241, 241, 241, 0.5);
   backdrop-filter: blur(30px);
-  padding: 5px;
+  padding: 4px;
 }
 
 ul li {
